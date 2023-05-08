@@ -29,6 +29,10 @@
 </template>
 
 <style scoped>
+#section__ourStory {
+  background-color: var(--ivory);
+  z-index: 1;
+}
 .container__ourStory {
   display: grid;
   justify-items: center;
@@ -45,15 +49,12 @@
 
 .text__ourStory-subheader {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-weight: 400;
   letter-spacing: 0.02rem;
   text-align: center;
 
   width: 30%;
-
-  border-radius: 55px;
-  background: #cac9c9;
 }
 
 .container__ourStory-content {
@@ -62,8 +63,8 @@
   align-items: center;
   justify-content: center;
 
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.1rem;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1.4rem;
 }
 
 .text__ourStory {
@@ -84,6 +85,9 @@
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   .text__ourStory-subheader {
     width: 45vw;
+  }
+  .container__ourStory-content {
+    font-size: 1.2rem;
   }
 
   .text__ourStory {
